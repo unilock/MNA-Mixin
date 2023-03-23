@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.unilock.mnamixin.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mnamixin.refmap.json",
+  "mixins": [
+    "GlobalLootModifiersMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
